@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71fc3edb-d649-4234-bf90-a7d14be7a90c" name="Default Changelist" comment="" />
+    <list default="true" id="71fc3edb-d649-4234-bf90-a7d14be7a90c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1cLoG3uBk6wo8POy0GZUX3JGMVZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,7 +23,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bdd-example" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -26,6 +35,7 @@
       <recent name="Steps" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Wiktor\Documents\GIT projects\Java3Excercise" />
       <recent name="C:\Users\Wiktor\Documents\GIT projects\Java3Excercise\src\test\java\Resources" />
     </key>
   </component>
@@ -163,26 +173,26 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1590318325936" />
-    <state x="473" y="159" key="FileChooserDialogImpl" timestamp="1590321222225">
+    <state x="473" y="159" key="FileChooserDialogImpl" timestamp="1590322941173">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="473" y="159" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1590321222225" />
-    <state width="1493" height="269" key="GridCell.Tab.0.bottom" timestamp="1590321380217">
+    <state x="473" y="159" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1590322941173" />
+    <state width="1493" height="269" key="GridCell.Tab.0.bottom" timestamp="1590321872322">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="269" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1590321380217" />
-    <state width="1493" height="269" key="GridCell.Tab.0.center" timestamp="1590321380217">
+    <state width="1493" height="269" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1590321872322" />
+    <state width="1493" height="269" key="GridCell.Tab.0.center" timestamp="1590321872322">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="269" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1590321380217" />
-    <state width="1493" height="269" key="GridCell.Tab.0.left" timestamp="1590321380217">
+    <state width="1493" height="269" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1590321872322" />
+    <state width="1493" height="269" key="GridCell.Tab.0.left" timestamp="1590321872322">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="269" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1590321380217" />
-    <state width="1493" height="269" key="GridCell.Tab.0.right" timestamp="1590321380217">
+    <state width="1493" height="269" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1590321872322" />
+    <state width="1493" height="269" key="GridCell.Tab.0.right" timestamp="1590321872322">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="269" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1590321380217" />
+    <state width="1493" height="269" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1590321872322" />
     <state x="299" y="72" key="Maven.ArtifactSearchDialog" timestamp="1590317529442">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
