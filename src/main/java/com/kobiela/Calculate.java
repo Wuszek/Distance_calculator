@@ -12,10 +12,8 @@ public class Calculate {
         double distance = sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
         double x = Math.floor(distance * 100) / 100;
         System.out.println(x + "km");
-        //return x + "km";
         this.dst = x;
     }
-
     public double getDst() {
         return dst;
     }

@@ -16,11 +16,9 @@ public class Point {
     public String getNazwa() {
         return nazwa;
     }
-
     public double getX() {
         return zmiennaX;
     }
-
     public double getY() {
         return zmiennaY;
     }
@@ -29,7 +27,6 @@ public class Point {
     public void setX(double zmienna) {
         zmiennaX = zmienna;
     }
-
     public void setY(double zmienna) {
         zmiennaY = zmienna;
     }

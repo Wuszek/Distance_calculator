@@ -1,7 +1,6 @@
 package com.kobiela;
 
 import org.jfree.ui.RefineryUtilities;
-
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -42,6 +41,7 @@ public class Form {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
+                    //Create points for calculations
                     Point first = new Point(name1.getText(), Double.parseDouble(coordX1.getText()), Double.parseDouble(coordY1.getText()));
                     Point second = new Point(name2.getText(), Double.parseDouble(coordX2.getText()), Double.parseDouble(coordY2.getText()));
                     Point third = new Point(name3.getText(), Double.parseDouble(coordX3.getText()), Double.parseDouble(coordY3.getText()));
@@ -70,7 +70,6 @@ public class Form {
                             difference = Math.floor(difference * 100) / 100;
                             looser = forth.getNazwa();
                             howfar = distance2.getDst();
-
                     }
                     else
                     {
@@ -79,7 +78,6 @@ public class Form {
                             difference = Math.floor(difference * 100) / 100;
                             looser = third.getNazwa();
                             howfar = distance3.getDst();
-
                     }
 
                     //difference between distance to old shop and the winner
@@ -95,6 +93,8 @@ public class Form {
                         difference2 = Math.floor(difference2 * 100) / 100;
                         winner2 = winner;
                     }
+
+                    //Checking in terminal if everything is OK
                     System.out.println("-------------------------------------------------");
                     System.out.println("Test obliczeń w pliku Form.java: ");
                     System.out.println("Różnica między starym sklepem a najbliższym nowym: " + difference2);
@@ -102,30 +102,26 @@ public class Form {
                     System.out.println("Odległość do pierwszego sklepu z get.Dst(): " + distance1.getDst());
                     System.out.println("Odległość do najbliższego nowego sklepu: " + howfar);
 
-
+                    //Fill textarea
                     textArea1.setText("Odległość między " + first.getNazwa() +" a "+ second.getNazwa() + " wynosi " + Double.toString(distance1.getDst()) + " km"
                             + "\n" + "Odległość między " + first.getNazwa() +" a "+ third.getNazwa() + " wynosi " + Double.toString(distance2.getDst()) + " km"
                             + "\n" + "Odległość między " + first.getNazwa() +" a "+ forth.getNazwa() + " wynosi " + Double.toString(distance3.getDst()) + " km"
                             + "\n" + "Bliżej jest do " + winner + " niż do " + looser + " i różnica wynosi " + difference + " km"
                             + "\n" + "Najbliżej od domu mamy do sklepu " + winner2 + ". Różnica odległości wynosi " + difference2 + " km");
-
-
                 }
                 catch (Exception exp) {
 
+                    //If anything wrong, popup appears
                     JOptionPane.showMessageDialog(null, "Wprowadzone wartości są niepoprawne lub ich brakuje." + "\n" +"Uzupełnij poprawnymi danymi, lub skorzystaj z przycisku UZUPEŁNIJ.", "Niepoprawne dane", JOptionPane.INFORMATION_MESSAGE);
-
-                    //textArea1.setText("Któraś wartość nie została wprowadzona lub jest niepoprawna.");
                     System.out.println("-------------------------------------------------");
                     System.out.println("Któraś wartość nie została wprowadzona lub jest niepoprawna i nie można przeprowadzić obliczeń.");
-                    //System.out.println();
                 }
             }
         });
+        //Clear button
         button2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
                 name1.setText("");
                 name2.setText("");
                 name3.setText("");
@@ -139,9 +135,9 @@ public class Form {
                 coordY3.setText("");
                 coordY4.setText("");
                 textArea1.setText("");
-
             }
         });
+        //Fill button
         fill.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -159,6 +155,7 @@ public class Form {
                 coordY4.setText("2.7");
             }
         });
+        //Draw button
         draw.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -172,14 +169,11 @@ public class Form {
                 }
                 catch (Exception exp) {
 
+                    //If anything wrong, popup appears
                     JOptionPane.showMessageDialog(null, "Wprowadzone wartości są niepoprawne lub ich brakuje - nie można narysować wykresu.", "Niepoprawne dane", JOptionPane.INFORMATION_MESSAGE);
-
-                    //textArea1.setText("Któraś wartość nie została wprowadzona lub jest niepoprawna.");
                     System.out.println("-------------------------------------------------");
                     System.out.println("Któraś wartość nie została wprowadzona lub jest niepoprawna i nie można narysować wykresu.");
-                    //System.out.println();
                 }
-
             }
         });
     }

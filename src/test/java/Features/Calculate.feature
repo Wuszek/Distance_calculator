@@ -1,4 +1,4 @@
-Feature: Sample new feature
+Feature: Calculate and point creation test
 
    Scenario: Calculate test - check if calculator is working properly
      Given Calculator module and Point module is OK

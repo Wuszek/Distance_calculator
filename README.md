@@ -1,5 +1,7 @@
 # Java Homework #3 - standalone 
 
+![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
+
 ### 3rd excercise - POINTS
 
   - House is point [x = 0 y = 0]
@@ -12,6 +14,11 @@
   - Added chart displaying distance from Home to Shops
   - Implemented Cucumber/Gherkin simple test to test Calculate/Point classes
   
-  ![Window app](https://i.imgur.com/cInNgVV.png)
-  
+  ##### Main app window
+  ![Window app](https://i.imgur.com/VAjGwsc.png)
+  ##### Chart window
   ![Chart](https://i.imgur.com/f3IYH3A.png)
+  ##### Tests
+  ![Test](https://i.imgur.com/YMaLSKX.png)
+  
+  

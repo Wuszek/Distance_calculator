@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Java3Excercise:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Java3Excercise_jar</output-path>
+    <root id="archive" name="Java3Excercise.jar">
+      <element id="module-output" name="Java3Excercise" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/cucumber/datatable/1.0.3/datatable-1.0.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/main/resources/jcommon-1.0.23.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/cucumber/datatable-dependencies/1.0.3/datatable-dependencies-1.0.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/cucumber/cucumber-html/0.2.7/cucumber-html-0.2.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/cucumber/tag-expressions/1.1.1/tag-expressions-1.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/3.0.2/cucumber-core-3.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/cucumber/cucumber-java/3.0.2/cucumber-java-3.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/main/resources/jfreechart-1.0.19.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/cucumber/cucumber-expressions/5.0.19/cucumber-expressions-5.0.19.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/cucumber/gherkin/5.0.0/gherkin-5.0.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

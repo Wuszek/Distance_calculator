@@ -40,9 +40,13 @@ public class MyStepdefs {
 
     @Then("Distance equals {double}")
     public void distanceEquals(double wanted) {
-        if(wanted == distance)
+        if (wanted == distance){
             System.out.println("Wanted distance is: " + wanted + " and calculated distance is: " + distance + ". Calculation correct!");
-        else
+            System.out.println();
+        }
+        else {
             System.out.println("Wanted distance, which is: " + distance + " is different than calculated one, which is: " + wanted);
+            System.out.println();
+        }
     }
 }
