@@ -1,6 +1,5 @@
 package com.kobiela;
 
-import org.jfree.chart.ChartPanel;
 import org.knowm.xchart.*;
 import org.knowm.xchart.style.Styler;
 import org.knowm.xchart.style.markers.SeriesMarkers;

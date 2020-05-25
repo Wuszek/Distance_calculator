@@ -1,7 +1,5 @@
 package com.kobiela;
 
-import org.jfree.ui.RefineryUtilities;
-
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -13,9 +11,9 @@ public class Form {
         frame.setContentPane(new Form().panel1);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
+        frame.setLocationRelativeTo(null);
         frame.setVisible(true);
         frame.setResizable(false);
-        RefineryUtilities.centerFrameOnScreen(frame);
     }
 
     private JPanel panel1;
