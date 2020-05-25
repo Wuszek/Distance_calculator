@@ -7,22 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71fc3edb-d649-4234-bf90-a7d14be7a90c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Java3Excercise_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Java3Excercise_jar/Java3Excercise.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kobiela/Calculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kobiela/Calculate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kobiela/Form.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kobiela/Form.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kobiela/Form.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kobiela/Form.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kobiela/XChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kobiela/XChart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kobiela/chart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/Calculate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/Calculate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jcommon-1.0.23.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jfreechart-1.0.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Calculate.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/Calculate.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/MyStepdefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/Form$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/Form$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/Form$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/Form$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/Form$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/Form$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/Form$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/Form$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/Form.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/Form.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/XYSeriesDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jcommon-1.0.23.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jfreechart-1.0.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/MyStepdefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/MyStepdefs.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,14 +105,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: Calculate" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Calculate test - check if calculator is working properly!" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="3" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Calculate.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Java3Excercise" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Calculate" />
+      <option name="NAME_FILTER" value="^Calculate test \- check if calculator is working properly\!$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^Calculate test \- check if calculator is working properly\!$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Calculate test - check if calculator is working properly!" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -122,15 +124,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Calculate test - check if calculator is working properly" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Calculate test - wrong wanted value!" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="3" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Calculate.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Java3Excercise" />
-      <option name="NAME_FILTER" value="^Calculate test \- check if calculator is working properly$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^Calculate test \- check if calculator is working properly$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Calculate test - check if calculator is working properly" />
+      <option name="NAME_FILTER" value="^Calculate test \- wrong wanted value\!$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^Calculate test \- wrong wanted value\!$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Calculate test - wrong wanted value!" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -153,18 +155,18 @@
     <list>
       <item itemvalue="Application.Form" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Cucumber java.cucumber.main" />
-      <item itemvalue="Cucumber java.Scenario: Calculate test - check if calculator is working properly" />
-      <item itemvalue="Cucumber java.Feature: Calculate" />
       <item itemvalue="Application.XChart" />
+      <item itemvalue="Cucumber java.cucumber.main" />
+      <item itemvalue="Cucumber java.Scenario: Calculate test - wrong wanted value!" />
+      <item itemvalue="Cucumber java.Scenario: Calculate test - check if calculator is working properly!" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Cucumber java.Scenario: Calculate test - check if calculator is working properly!" />
+        <item itemvalue="Cucumber java.Scenario: Calculate test - wrong wanted value!" />
         <item itemvalue="Application.Form" />
         <item itemvalue="Application.XChart" />
-        <item itemvalue="Cucumber java.Feature: Calculate" />
-        <item itemvalue="Cucumber java.Scenario: Calculate test - check if calculator is working properly" />
       </list>
     </recent_temporary>
   </component>
@@ -190,30 +192,30 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="146" y="58" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1590326533238" />
-    <state x="499" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1590408469281">
+    <state x="499" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1590410837988">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="499" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1590408469281" />
-    <state x="473" y="159" key="FileChooserDialogImpl" timestamp="1590408584402">
+    <state x="499" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1590410837988" />
+    <state x="473" y="159" key="FileChooserDialogImpl" timestamp="1590410846084">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="473" y="159" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1590408584402" />
-    <state width="1493" height="106" key="GridCell.Tab.0.bottom" timestamp="1590408603311">
+    <state x="473" y="159" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1590410846084" />
+    <state width="1493" height="282" key="GridCell.Tab.0.bottom" timestamp="1590410927647">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="106" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1590408603311" />
-    <state width="1493" height="106" key="GridCell.Tab.0.center" timestamp="1590408603310">
+    <state width="1493" height="282" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1590410927647" />
+    <state width="1493" height="282" key="GridCell.Tab.0.center" timestamp="1590410927647">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="106" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1590408603310" />
-    <state width="1493" height="106" key="GridCell.Tab.0.left" timestamp="1590408603310">
+    <state width="1493" height="282" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1590410927647" />
+    <state width="1493" height="282" key="GridCell.Tab.0.left" timestamp="1590410927647">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="106" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1590408603310" />
-    <state width="1493" height="106" key="GridCell.Tab.0.right" timestamp="1590408603311">
+    <state width="1493" height="282" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1590410927647" />
+    <state width="1493" height="282" key="GridCell.Tab.0.right" timestamp="1590410927647">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="106" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1590408603311" />
+    <state width="1493" height="282" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1590410927647" />
     <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1590343270120">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -234,10 +236,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="299" y="72" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1590397688353" />
-    <state x="182" y="38" width="1038" height="712" key="SettingsEditor" timestamp="1590408598020">
+    <state x="182" y="38" width="1038" height="712" key="SettingsEditor" timestamp="1590410887374">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="182" y="38" width="1038" height="712" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1590408598020" />
+    <state x="182" y="38" width="1038" height="712" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1590410887374" />
     <state x="465" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1590397306746">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
