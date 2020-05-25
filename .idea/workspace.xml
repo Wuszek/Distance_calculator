@@ -7,23 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71fc3edb-d649-4234-bf90-a7d14be7a90c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Java3Excercise_jar/Java3Excercise.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kobiela/Form.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kobiela/Form.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kobiela/XChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kobiela/XChart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jcommon-1.0.23.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jfreechart-1.0.19.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Calculate.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/Calculate.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/MyStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/Form$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/Form$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/Form$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/Form$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/Form$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/Form$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/Form$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/Form$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/Form.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/Form.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jcommon-1.0.23.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jfreechart-1.0.19.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/MyStepdefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/MyStepdefs.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
