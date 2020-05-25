@@ -16,8 +16,8 @@ public class XChart extends JFrame {
             final XYChart chart =
                     new XYChartBuilder()
                             .width(600)
-                            .height(400)
-                            .title("Distance from Home")
+                            .height(500)
+                            .title("Distance from Home point")
                             .xAxisTitle("X")
                             .yAxisTitle("Y")
                             .build();
@@ -61,7 +61,7 @@ public class XChart extends JFrame {
                             frame.setVisible(true);
 
                             System.out.println("-------------------------------------------------");
-                            System.out.println("Wykres narysowany poprawnie.");
+                            System.out.println("Chart drawn correctly.");
                         }
                     });
         }

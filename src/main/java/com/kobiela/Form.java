@@ -1,10 +1,6 @@
 package com.kobiela;
 
 import org.jfree.ui.RefineryUtilities;
-import org.knowm.xchart.SwingWrapper;
-import org.knowm.xchart.XYChart;
-import org.knowm.xchart.XYSeries;
-import org.knowm.xchart.style.markers.SeriesMarkers;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -13,7 +9,7 @@ import java.awt.event.ActionListener;
 public class Form {
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame("Kalkulator odległości");
+        JFrame frame = new JFrame("Distance calculator");
         frame.setContentPane(new Form().panel1);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
@@ -53,13 +49,13 @@ public class Form {
                     Point forth = new Point(name4.getText(),Double.parseDouble(coordX4.getText()), Double.parseDouble(coordY4.getText()));
 
                     System.out.println("-------------------------------------------------");
-                    System.out.println("Test pliku Calculate.java: ");
+                    System.out.println("Calculate.java test: ");
 
-                    //calculate between home and first old shop
+                    //calculate between home point and first point
                     Calculate distance1 = new Calculate(first.getNazwa(), first.getX(), first.getY(), second.getNazwa(), second.getX(), second.getY());
-                    //calculate distance between home and new shop
+                    //calculate between home point and second point
                     Calculate distance2 = new Calculate(first.getNazwa(), first.getX(), first.getY(), third.getNazwa(), third.getX(), third.getY());
-                    //calculate distance between home and second shop
+                    //calculate between home point and third point
                     Calculate distance3 = new Calculate(first.getNazwa(), first.getX(), first.getY(), forth.getNazwa(), forth.getX(), forth.getY());
 
                     String winner = "";
@@ -101,25 +97,25 @@ public class Form {
 
                     //Checking in terminal if everything is OK
                     System.out.println("-------------------------------------------------");
-                    System.out.println("Test obliczeń w pliku Form.java: ");
-                    System.out.println("Różnica między starym sklepem a najbliższym nowym: " + difference2);
-                    System.out.println("Sprawdzenie poprawności obliczenia różnicy: " + (howfar - distance1.getDst()));
-                    System.out.println("Odległość do pierwszego sklepu z get.Dst(): " + distance1.getDst());
-                    System.out.println("Odległość do najbliższego nowego sklepu: " + howfar);
+                    System.out.println("Form.java calculations test: ");
+                    System.out.println("Distance difference between Home->Point1 and closer one of Home->Point2 or Home->Point3: " + difference2);
+                    System.out.println("Checking the difference calculation: " + (howfar - distance1.getDst()));
+                    System.out.println("Distance to Point1 from get.Dst(): " + distance1.getDst());
+                    System.out.println("Distance to closer one of Home->Point2 or Home->Point3: " + howfar);
 
                     //Fill textarea
-                    textArea1.setText("Odległość między " + first.getNazwa() +" a "+ second.getNazwa() + " wynosi " + Double.toString(distance1.getDst()) + " km"
-                            + "\n" + "Odległość między " + first.getNazwa() +" a "+ third.getNazwa() + " wynosi " + Double.toString(distance2.getDst()) + " km"
-                            + "\n" + "Odległość między " + first.getNazwa() +" a "+ forth.getNazwa() + " wynosi " + Double.toString(distance3.getDst()) + " km"
-                            + "\n" + "Bliżej jest do " + winner + " niż do " + looser + " i różnica wynosi " + difference + " km"
-                            + "\n" + "Najbliżej od domu mamy do sklepu " + winner2 + ". Różnica odległości wynosi " + difference2 + " km");
+                    textArea1.setText("Distance between " + first.getNazwa() +" and "+ second.getNazwa() + " is " + Double.toString(distance1.getDst()) + " km"
+                            + "\n" + "Distance between " + first.getNazwa() +" and "+ third.getNazwa() + " is " + Double.toString(distance2.getDst()) + " km"
+                            + "\n" + "Distance between " + first.getNazwa() +" and "+ forth.getNazwa() + " is " + Double.toString(distance3.getDst()) + " km"
+                            + "\n" + "It is closer to " + winner + " than to " + looser + " and the difference is " + difference + " km"
+                            + "\n" + "Closest to Home point is the " + winner2 + ". The distance difference is " + difference2 + " km");
                 }
                 catch (Exception exp) {
 
                     //If anything wrong, popup appears
-                    JOptionPane.showMessageDialog(null, "Wprowadzone wartości są niepoprawne lub ich brakuje." + "\n" +"Uzupełnij poprawnymi danymi, lub skorzystaj z przycisku UZUPEŁNIJ.", "Niepoprawne dane", JOptionPane.INFORMATION_MESSAGE);
+                    JOptionPane.showMessageDialog(null, "The entered values are incorrect or missing." + "\n" +"Fill in with the correct data or use the FILL button.", "Incorrect data", JOptionPane.INFORMATION_MESSAGE);
                     System.out.println("-------------------------------------------------");
-                    System.out.println("Któraś wartość nie została wprowadzona lub jest niepoprawna i nie można przeprowadzić obliczeń.");
+                    System.out.println("Some value has not been entered or is invalid and calculations cannot be performed.");
                 }
             }
         });
@@ -140,6 +136,10 @@ public class Form {
                 coordY3.setText("");
                 coordY4.setText("");
                 textArea1.setText("");
+
+                System.out.println("-------------------------------------------------");
+                System.out.println("Textboxes cleared.");
+
             }
         });
         //Fill button
@@ -158,6 +158,9 @@ public class Form {
                 coordY2.setText("2.5");
                 coordY3.setText("-2.3");
                 coordY4.setText("2.7");
+
+                System.out.println("-------------------------------------------------");
+                System.out.println("Textboxes filled with default values.");
             }
         });
         //Draw button
@@ -169,12 +172,9 @@ public class Form {
                     Point second = new Point(name2.getText(), Double.parseDouble(coordX2.getText()), Double.parseDouble(coordY2.getText()));
                     Point third = new Point(name3.getText(), Double.parseDouble(coordX3.getText()), Double.parseDouble(coordY3.getText()));
                     Point forth = new Point(name4.getText(), Double.parseDouble(coordX4.getText()), Double.parseDouble(coordY4.getText()));
-                    //XYSeriesDemo.main(null, first.getX(), second.getX(), third.getX(), forth.getX(), first.getY(), second.getY(), third.getY(), forth.getY());
-                    //XYSeriesDemo.main(null, 0, 1.2, 5.5, 3.3, 0, 2.5, -2.3, 2.7);
-                    //XChart.main(null);
 
                     System.out.println("-------------------------------------------------");
-                    System.out.println("Test pliku Calculate.java: ");
+                    System.out.println("Calculate.java test: ");
 
                     //calculate between home and first old shop
                     Calculate distance1 = new Calculate(first.getNazwa(), first.getX(), first.getY(), second.getNazwa(), second.getX(), second.getY());
@@ -190,9 +190,9 @@ public class Form {
                 catch (Exception exp) {
 
                     //If anything wrong, popup appears
-                    JOptionPane.showMessageDialog(null, "Wprowadzone wartości są niepoprawne lub ich brakuje - nie można narysować wykresu.", "Niepoprawne dane", JOptionPane.INFORMATION_MESSAGE);
+                    JOptionPane.showMessageDialog(null, "The entered values are incorrect or missing." + "\n" +"Fill in with the correct data or use the FILL button.", "Incorrect data", JOptionPane.INFORMATION_MESSAGE);
                     System.out.println("-------------------------------------------------");
-                    System.out.println("Któraś wartość nie została wprowadzona lub jest niepoprawna i nie można narysować wykresu.");
+                    System.out.println("Some value has not been entered or is invalid and calculations cannot be performed.");
                 }
             }
         });
