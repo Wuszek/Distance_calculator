@@ -7,26 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71fc3edb-d649-4234-bf90-a7d14be7a90c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kobiela/XChart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/xchart-3.6.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Java3Excercise_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Java3Excercise_jar/Java3Excercise.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Java3Excercise_jar/Java3Excercise.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Java3Excercise_jar/Java3Excercise.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kobiela/Calculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kobiela/Calculate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kobiela/Form.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kobiela/Form.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kobiela/Form.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kobiela/Form.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kobiela/chart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kobiela/chart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kobiela/XChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kobiela/XChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kobiela/chart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/Calculate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/Calculate.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/Form$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/Form$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/Form$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/Form$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/Form$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/Form$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/Form$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/Form$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/Form.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/Form.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/XYSeriesDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/XYSeriesDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RunCucumberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RunCucumberTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/MyStepdefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/MyStepdefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/XYSeriesDemo.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +49,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/xchart-3.6.3.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/Java3Excercise_jar" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -68,7 +64,7 @@
       <recent name="C:\Users\Wiktor\Documents\GIT projects\Java3Excercise\src\test\java\Resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Form">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Form" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kobiela.Form" />
       <module name="Java3Excercise" />
@@ -164,9 +160,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Form" />
         <item itemvalue="Application.XChart" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Cucumber java.Feature: Calculate" />
         <item itemvalue="Cucumber java.Scenario: Calculate test - check if calculator is working properly" />
       </list>
@@ -194,30 +190,30 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="146" y="58" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1590326533238" />
-    <state x="499" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1590326380758">
+    <state x="499" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1590408469281">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="499" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1590326380758" />
-    <state x="473" y="159" key="FileChooserDialogImpl" timestamp="1590398538788">
+    <state x="499" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1590408469281" />
+    <state x="473" y="159" key="FileChooserDialogImpl" timestamp="1590408584402">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="473" y="159" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1590398538788" />
-    <state width="1493" height="238" key="GridCell.Tab.0.bottom" timestamp="1590403606777">
+    <state x="473" y="159" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1590408584402" />
+    <state width="1493" height="106" key="GridCell.Tab.0.bottom" timestamp="1590408603311">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="238" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1590403606777" />
-    <state width="1493" height="238" key="GridCell.Tab.0.center" timestamp="1590403606776">
+    <state width="1493" height="106" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1590408603311" />
+    <state width="1493" height="106" key="GridCell.Tab.0.center" timestamp="1590408603310">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="238" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1590403606776" />
-    <state width="1493" height="238" key="GridCell.Tab.0.left" timestamp="1590403606776">
+    <state width="1493" height="106" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1590408603310" />
+    <state width="1493" height="106" key="GridCell.Tab.0.left" timestamp="1590408603310">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="238" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1590403606776" />
-    <state width="1493" height="238" key="GridCell.Tab.0.right" timestamp="1590403606776">
+    <state width="1493" height="106" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1590408603310" />
+    <state width="1493" height="106" key="GridCell.Tab.0.right" timestamp="1590408603311">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="238" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1590403606776" />
+    <state width="1493" height="106" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1590408603311" />
     <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1590343270120">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -238,10 +234,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="299" y="72" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1590397688353" />
-    <state x="182" y="38" width="1038" height="712" key="SettingsEditor" timestamp="1590398542859">
+    <state x="182" y="38" width="1038" height="712" key="SettingsEditor" timestamp="1590408598020">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="182" y="38" width="1038" height="712" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1590398542859" />
+    <state x="182" y="38" width="1038" height="712" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1590408598020" />
     <state x="465" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1590397306746">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
