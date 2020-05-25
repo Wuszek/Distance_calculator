@@ -1,6 +1,11 @@
 package com.kobiela;
 
 import org.jfree.ui.RefineryUtilities;
+import org.knowm.xchart.SwingWrapper;
+import org.knowm.xchart.XYChart;
+import org.knowm.xchart.XYSeries;
+import org.knowm.xchart.style.markers.SeriesMarkers;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -164,8 +169,12 @@ public class Form {
                     Point second = new Point(name2.getText(), Double.parseDouble(coordX2.getText()), Double.parseDouble(coordY2.getText()));
                     Point third = new Point(name3.getText(), Double.parseDouble(coordX3.getText()), Double.parseDouble(coordY3.getText()));
                     Point forth = new Point(name4.getText(), Double.parseDouble(coordX4.getText()), Double.parseDouble(coordY4.getText()));
-                    XYSeriesDemo.main(null, first.getX(), second.getX(), third.getX(), forth.getX(), first.getY(), second.getY(), third.getY(), forth.getY());
-                    // XYSeriesDemo.main(null, 0, 1.2, 5.5, 3.3, 0, 2.5, -2.3, 2.7);
+                   //XYSeriesDemo.main(null, first.getX(), second.getX(), third.getX(), forth.getX(), first.getY(), second.getY(), third.getY(), forth.getY());
+                    //XYSeriesDemo.main(null, 0, 1.2, 5.5, 3.3, 0, 2.5, -2.3, 2.7);
+                    //XChart.main(null);
+
+                    XChart.main(null, first.getX(), second.getX(), third.getX(), forth.getX(), first.getY(), second.getY(), third.getY(), forth.getY());
+
                 }
                 catch (Exception exp) {
 

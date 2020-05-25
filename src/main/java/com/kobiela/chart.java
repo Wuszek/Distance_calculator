@@ -3,33 +3,12 @@ package com.kobiela;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
-import org.jfree.chart.axis.DateAxis;
-import org.jfree.chart.axis.NumberAxis;
-import org.jfree.chart.axis.NumberTickUnit;
-import org.jfree.chart.axis.ValueAxis;
-import org.jfree.chart.labels.StandardXYToolTipGenerator;
-import org.jfree.chart.labels.XYItemLabelGenerator;
-import org.jfree.chart.plot.Marker;
 import org.jfree.chart.plot.PlotOrientation;
-import org.jfree.chart.plot.ValueMarker;
-import org.jfree.chart.renderer.category.LineAndShapeRenderer;
-import org.jfree.data.time.Minute;
-import org.jfree.data.xy.AbstractXYDataset;
 import org.jfree.data.xy.XYDataset;
 import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
-import org.jfree.ui.ApplicationFrame;
-import org.jfree.ui.RectangleAnchor;
-import org.jfree.ui.RefineryUtilities;
-import org.jfree.ui.TextAnchor;
-import org.jfree.chart.plot.Marker;
-import org.jfree.chart.plot.PlotOrientation;
-import org.jfree.chart.plot.ValueMarker;
-import org.jfree.chart.plot.XYPlot;
 
 import javax.swing.*;
-import java.awt.*;
-import java.util.ArrayList;
 
 
 class XYSeriesDemo extends JFrame {
@@ -73,16 +52,10 @@ class XYSeriesDemo extends JFrame {
         series3.add(x1, y1);
         series3.add(x4, y4);
 
-     //   XYSeries series4 = new XYSeries("Series 4");
-     //   series4.add(x1, y1);
-      //  series4.add(x4, y4);
-
-
         XYSeriesCollection dataset = new XYSeriesCollection();
         dataset.addSeries(series1);
         dataset.addSeries(series2);
         dataset.addSeries(series3);
-       // dataset.addSeries(series4);
         return dataset;
     }
 
@@ -105,8 +78,6 @@ class XYSeriesDemo extends JFrame {
      */
     public static void main(String[] args, double x1, double x2, double x3, double x4, double y1, double y2, double y3, double y4) {
 
-        //final XYSeriesDemo demo = new XYSeriesDemo("Wykres odległości", x1, x2, x3, x4, y1, y2, y3, y4);
-
         JFrame frame2 = new XYSeriesDemo("Wykres odległości", x1, x2, x3, x4, y1, y2, y3, y4);
         //frame.setContentPane(new XYSeriesDemo("Wykres odległości", x1, x2, x3, x4, y1, y2, y3, y4));
         frame2.setDefaultCloseOperation(frame2.DISPOSE_ON_CLOSE);
@@ -115,11 +86,6 @@ class XYSeriesDemo extends JFrame {
 
         System.out.println("-------------------------------------------------");
         System.out.println("Wykres narysowany poprawnie.");
-      //  demo.pack();
-      //  RefineryUtilities.centerFrameOnScreen(demo);
-       // demo.setVisible(true);
-      //  demo.setDefaultCloseOperation(HIDE_ON_CLOSE);
-
     }
 
 }
