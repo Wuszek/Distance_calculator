@@ -7,26 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71fc3edb-d649-4234-bf90-a7d14be7a90c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kobiela/XChart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/xchart-3.6.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/todo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Java3Excercise_jar/Java3Excercise.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Java3Excercise_jar/Java3Excercise.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kobiela/Form.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kobiela/Form.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kobiela/chart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kobiela/chart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/Calculate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/Calculate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/Form$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/Form$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/Form$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/Form$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/Form$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/Form$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/Form$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/Form$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/Form.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/Form.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kobiela/XYSeriesDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kobiela/XYSeriesDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RunCucumberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RunCucumberTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/MyStepdefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/MyStepdefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kobiela/XChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kobiela/XChart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,22 +186,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="473" y="159" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1590398538788" />
-    <state width="1493" height="238" key="GridCell.Tab.0.bottom" timestamp="1590403606777">
+    <state width="1493" height="238" key="GridCell.Tab.0.bottom" timestamp="1590404171631">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="238" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1590403606777" />
-    <state width="1493" height="238" key="GridCell.Tab.0.center" timestamp="1590403606776">
+    <state width="1493" height="238" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1590404171631" />
+    <state width="1493" height="238" key="GridCell.Tab.0.center" timestamp="1590404171631">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="238" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1590403606776" />
-    <state width="1493" height="238" key="GridCell.Tab.0.left" timestamp="1590403606776">
+    <state width="1493" height="238" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1590404171631" />
+    <state width="1493" height="238" key="GridCell.Tab.0.left" timestamp="1590404171631">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="238" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1590403606776" />
-    <state width="1493" height="238" key="GridCell.Tab.0.right" timestamp="1590403606776">
+    <state width="1493" height="238" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1590404171631" />
+    <state width="1493" height="238" key="GridCell.Tab.0.right" timestamp="1590404171631">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="238" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1590403606776" />
+    <state width="1493" height="238" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1590404171631" />
     <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1590343270120">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

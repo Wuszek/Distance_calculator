@@ -23,7 +23,8 @@ public class XChart extends JFrame {
                             .build();
 
             // Customize Chart
-            chart.getStyler().setLegendPosition(Styler.LegendPosition.OutsideE);
+            chart.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
+            chart.getStyler().setLegendLayout(Styler.LegendLayout.Horizontal);
             //chart.getStyler().setDefaultSeriesRenderStyle(XYSeries.XYSeriesRenderStyle.Area);
 
             // Series
