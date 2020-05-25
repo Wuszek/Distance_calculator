@@ -1,5 +1,5 @@
 #1 Setup XChart
     - Name under the main point
-    - Some cleaneup in code and visual sfuff
+    - Some cleaneup in code and visual stuff
 
 #2 Update README

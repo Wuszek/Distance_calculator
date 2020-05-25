@@ -13,7 +13,7 @@ import java.awt.event.ActionListener;
 public class Form {
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame("Kalkulator odległości między domem a sklepem");
+        JFrame frame = new JFrame("Kalkulator odległości");
         frame.setContentPane(new Form().panel1);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
@@ -147,8 +147,8 @@ public class Form {
             @Override
             public void actionPerformed(ActionEvent e) {
                 name1.setText("Dom");
-                name2.setText("Żabka stara");
-                name3.setText("Żabka nowa");
+                name2.setText("Żabka");
+                name3.setText("BP");
                 name4.setText("Biedronka");
                 coordX1.setText("0");
                 coordX2.setText("1.2");
@@ -169,11 +169,22 @@ public class Form {
                     Point second = new Point(name2.getText(), Double.parseDouble(coordX2.getText()), Double.parseDouble(coordY2.getText()));
                     Point third = new Point(name3.getText(), Double.parseDouble(coordX3.getText()), Double.parseDouble(coordY3.getText()));
                     Point forth = new Point(name4.getText(), Double.parseDouble(coordX4.getText()), Double.parseDouble(coordY4.getText()));
-                   //XYSeriesDemo.main(null, first.getX(), second.getX(), third.getX(), forth.getX(), first.getY(), second.getY(), third.getY(), forth.getY());
+                    //XYSeriesDemo.main(null, first.getX(), second.getX(), third.getX(), forth.getX(), first.getY(), second.getY(), third.getY(), forth.getY());
                     //XYSeriesDemo.main(null, 0, 1.2, 5.5, 3.3, 0, 2.5, -2.3, 2.7);
                     //XChart.main(null);
 
-                    XChart.main(null, first.getX(), second.getX(), third.getX(), forth.getX(), first.getY(), second.getY(), third.getY(), forth.getY());
+                    System.out.println("-------------------------------------------------");
+                    System.out.println("Test pliku Calculate.java: ");
+
+                    //calculate between home and first old shop
+                    Calculate distance1 = new Calculate(first.getNazwa(), first.getX(), first.getY(), second.getNazwa(), second.getX(), second.getY());
+                    //calculate distance between home and new shop
+                    Calculate distance2 = new Calculate(first.getNazwa(), first.getX(), first.getY(), third.getNazwa(), third.getX(), third.getY());
+                    //calculate distance between home and second shop
+                    Calculate distance3 = new Calculate(first.getNazwa(), first.getX(), first.getY(), forth.getNazwa(), forth.getX(), forth.getY());
+
+
+                    XChart.main(null, first.getX(), second.getX(), third.getX(), forth.getX(), first.getY(), second.getY(), third.getY(), forth.getY(), first.getNazwa(), second.getNazwa(), third.getNazwa(), forth.getNazwa(), distance1.getDst(), distance2.getDst(), distance3.getDst());
 
                 }
                 catch (Exception exp) {

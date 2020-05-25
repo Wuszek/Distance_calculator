@@ -10,7 +10,7 @@ import java.awt.*;
 
 public class XChart extends JFrame {
 
-        public static void main(String[] args, double x1, double x2, double x3, double x4, double y1, double y2, double y3, double y4) {
+        public static void main(String[] args, double x1, double x2, double x3, double x4, double y1, double y2, double y3, double y4, String name1, String name2, String name3, String name4, double dst1, double dst2, double dst3) {
 
             // Create Chart
             final XYChart chart =
@@ -25,13 +25,14 @@ public class XChart extends JFrame {
             // Customize Chart
             chart.getStyler().setLegendPosition(Styler.LegendPosition.OutsideS);
             chart.getStyler().setLegendLayout(Styler.LegendLayout.Horizontal);
-            //chart.getStyler().setDefaultSeriesRenderStyle(XYSeries.XYSeriesRenderStyle.Area);
+            chart.getStyler().setHasAnnotations(true);
+            chart.getStyler().setToolTipsEnabled(true); //shows values of points if pointed
 
             // Series
 
-            chart.addSeries("Home->Shop1", new double[] {x1, x2}, new double[] {y1, y2});
-            chart.addSeries("Home->Shop2", new double[] {x1, x3}, new double[] {y1, y3});
-            chart.addSeries("Home->Shop3", new double[] {x1, x4}, new double[] {y1, y4});
+            chart.addSeries(name1 + "->" + name2 +" (" + dst1 + "km)" + " ", new double[] {x1, x2}, new double[] {y1, y2});
+            chart.addSeries(name1 + "->" + name3 +" (" + dst2 + "km)" + " ", new double[] {x1, x3}, new double[] {y1, y3});
+            chart.addSeries(name1 + "->" + name4 +" (" + dst3 + "km)" + " ", new double[] {x1, x4}, new double[] {y1, y4});
 
 
             // Schedule a job for the event-dispatching thread:
