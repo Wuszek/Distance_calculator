@@ -3,6 +3,8 @@ package com.kobiela;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 public class Form {
 
@@ -34,6 +36,8 @@ public class Form {
     private JButton button2;
     private JButton fill;
     private JButton draw;
+    private JMenu File;
+    private JMenu About;
 
     public Form() {
         button.addActionListener(new ActionListener() {
@@ -192,6 +196,17 @@ public class Form {
                     System.out.println("-------------------------------------------------");
                     System.out.println("Some value has not been entered or is invalid and calculations cannot be performed.");
                 }
+            }
+        });
+
+
+        About.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                super.mouseClicked(e);
+                AboutWindow.main(null);
+//                JOptionPane.showMessageDialog(null, "The entered values are incorrect or missing." + "\n" +"Fill in with the correct data or use the FILL button.", "Incorrect data", JOptionPane.INFORMATION_MESSAGE);
+//                System.out.println("CLicked");
             }
         });
     }
