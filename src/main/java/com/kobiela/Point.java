@@ -3,6 +3,7 @@ package com.kobiela;
 
 import lombok.Data;
 
+//using lombok
 @Data
 public class Point {
 
@@ -15,24 +16,5 @@ public class Point {
         this.X = x;
         this.Y = y;
     }
-
-//    //return the value of X and Y
-//    public String getNazwa() {
-//        return nazwa;
-//    }
-//    public double getX() {
-//        return X;
-//    }
-//    public double getY() {
-//        return Y;
-//    }
-//
-//    //setters, so we set new values for point
-//    public void setX(double zmienna) {
-//        X = zmienna;
-//    }
-//    public void setY(double zmienna) {
-//        Y = zmienna;
-//    }
 
 }

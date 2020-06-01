@@ -126,7 +126,7 @@ public class Form {
                 } catch (Exception exp) {
 
                     //If anything wrong, popup appears
-                    JOptionPane.showMessageDialog(null, "The entered values are incorrect or missing." + "\n" + "Fill in with the correct data or use the FILL button.", "Incorrect data", JOptionPane.INFORMATION_MESSAGE);
+                    JOptionPane.showMessageDialog(null, "The entered values are incorrect or missing." + "\n" + "Fill in with the correct data or use the example data provided.", "Incorrect data", JOptionPane.INFORMATION_MESSAGE);
                     System.out.println("-------------------------------------------------");
                     System.out.println("Some value has not been entered or is invalid and calculations cannot be performed.");
                 }
@@ -229,7 +229,7 @@ public class Form {
                 } catch (Exception exp) {
 
                     //If anything wrong, popup appears
-                    JOptionPane.showMessageDialog(null, "The entered values are incorrect or missing." + "\n" + "Fill in with the correct data or use the FILL button.", "Incorrect data", JOptionPane.INFORMATION_MESSAGE);
+                    JOptionPane.showMessageDialog(null, "The entered values are incorrect or missing." + "\n" + "Fill in with the correct data or use the example data provided.", "Incorrect data", JOptionPane.INFORMATION_MESSAGE);
                     System.out.println("-------------------------------------------------");
                     System.out.println("Some value has not been entered or is invalid and calculations cannot be performed.");
                 }
@@ -244,14 +244,11 @@ public class Form {
 
         });
 
-
         About.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
                 AboutWindow.main(null);
-//                JOptionPane.showMessageDialog(null, "The entered values are incorrect or missing." + "\n" +"Fill in with the correct data or use the FILL button.", "Incorrect data", JOptionPane.INFORMATION_MESSAGE);
-//                System.out.println("CLicked");
             }
         });
         About.addMouseListener(new MouseAdapter() {
@@ -273,9 +270,6 @@ public class Form {
             @Override
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
-//                AboutWindow.main(null);
-//                JOptionPane.showMessageDialog(null, "The entered values are incorrect or missing." + "\n" +"Fill in with the correct data or use the FILL button.", "Incorrect data", JOptionPane.INFORMATION_MESSAGE);
-//                System.out.println("CLicked");
             }
         });
 
@@ -288,8 +282,6 @@ public class Form {
                     System.exit(0);
                 }
 
-
-                //System.exit(0);
             }
         });
     }

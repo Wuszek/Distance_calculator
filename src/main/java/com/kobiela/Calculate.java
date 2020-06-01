@@ -3,6 +3,7 @@ package com.kobiela;
 import lombok.Getter;
 import static java.lang.Math.sqrt;
 
+//using lombok
 @Getter
 public class Calculate {
 
@@ -16,7 +17,4 @@ public class Calculate {
         System.out.println(x + "km");
         this.dst = x;
     }
-//    public double getDst() {
-//        return dst;
-//    }
 }
