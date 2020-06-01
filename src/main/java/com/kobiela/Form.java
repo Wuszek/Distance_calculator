@@ -55,12 +55,6 @@ public class Form {
     private JMenu About;
 
     public Form() {
-
-
-
-
-
-
         button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

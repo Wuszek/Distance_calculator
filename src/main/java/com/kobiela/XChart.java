@@ -9,6 +9,7 @@ import java.awt.*;
 
 public class XChart extends JFrame {
 
+
         public static void main(String[] args, double x1, double x2, double x3, double x4, double y1, double y2, double y3, double y4, String name1, String name2, String name3, String name4, double dst1, double dst2, double dst3) {
 
             // Create Chart
@@ -61,7 +62,33 @@ public class XChart extends JFrame {
 
                             System.out.println("-------------------------------------------------");
                             System.out.println("Chart drawn correctly.");
+
+
+
                         }
                     });
         }
+
+
+//        public void Save(){
+//
+//            //chart.getChart();
+//
+//
+//            BitmapEncoder.saveBitmap(chart, "./Sample_Chart", BitmapEncoder.BitmapFormat.PNG);
+//            BitmapEncoder.saveBitmap(chart, "./Sample_Chart", BitmapEncoder.BitmapFormat.JPG);
+//            BitmapEncoder.saveJPGWithQuality(chart, "./Sample_Chart_With_Quality.jpg", 0.95f);
+//            BitmapEncoder.saveBitmap(chart, "./Sample_Chart", BitmapEncoder.BitmapFormat.BMP);
+//            BitmapEncoder.saveBitmap(chart, "./Sample_Chart", BitmapEncoder.BitmapFormat.GIF);
+//
+//            BitmapEncoder.saveBitmapWithDPI(chart, "./Sample_Chart_300_DPI", BitmapEncoder.BitmapFormat.PNG, 300);
+//            BitmapEncoder.saveBitmapWithDPI(chart, "./Sample_Chart_300_DPI", BitmapFormat.JPG, 300);
+//            BitmapEncoder.saveBitmapWithDPI(chart, "./Sample_Chart_300_DPI", BitmapFormat.GIF, 300);
+//
+//            VectorGraphicsEncoder.saveVectorGraphic(chart, "./Sample_Chart", VectorGraphicsFormat.EPS);
+//            VectorGraphicsEncoder.saveVectorGraphic(chart, "./Sample_Chart", VectorGraphicsFormat.PDF);
+//            VectorGraphicsEncoder.saveVectorGraphic(chart, "./Sample_Chart", VectorGraphicsFormat.SVG);
+//
+//        }
+
     }
