@@ -51,8 +51,10 @@ public class Form {
     private JButton button2;
     private JButton fill;
     private JButton draw;
-    private JMenu File;
+    private JMenu file;
     private JMenu About;
+    private JMenuBar menuBar1;
+    private JMenuItem exit;
 
     public Form() {
         button.addActionListener(new ActionListener() {
@@ -130,6 +132,15 @@ public class Form {
                 }
             }
         });
+        button.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseEntered(MouseEvent e) {
+                super.mouseEntered(e);
+                button.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+            }
+
+        });
+
         //Clear button
         button2.addActionListener(new ActionListener() {
             @Override
@@ -153,6 +164,15 @@ public class Form {
 
             }
         });
+        button2.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseEntered(MouseEvent e) {
+                super.mouseEntered(e);
+                button2.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+            }
+
+        });
+
         //Fill button
         fill.addActionListener(new ActionListener() {
             @Override
@@ -174,6 +194,15 @@ public class Form {
                 System.out.println("Textboxes filled with default values.");
             }
         });
+        fill.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseEntered(MouseEvent e) {
+                super.mouseEntered(e);
+                fill.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+            }
+
+        });
+
         //Draw button
         draw.addActionListener(new ActionListener() {
             @Override
@@ -206,6 +235,14 @@ public class Form {
                 }
             }
         });
+        draw.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseEntered(MouseEvent e) {
+                super.mouseEntered(e);
+                draw.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+            }
+
+        });
 
 
         About.addMouseListener(new MouseAdapter() {
@@ -225,14 +262,14 @@ public class Form {
             }
 
         });
-        File.addMouseListener(new MouseAdapter() {
+        file.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseEntered(MouseEvent e) {
-                File.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+                file.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
             }
         });
 
-        File.addMouseListener(new MouseAdapter() {
+        file.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
@@ -242,7 +279,21 @@ public class Form {
             }
         });
 
+        exit.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                int input = JOptionPane.showConfirmDialog(null,"Are you sure?", "Closing...", JOptionPane.YES_NO_OPTION, JOptionPane.ERROR_MESSAGE);
+                if(input==0)
+                {
+                    System.exit(0);
+                }
+
+
+                //System.exit(0);
+            }
+        });
     }
+
 
 }
 
