@@ -1,6 +1,9 @@
 target/
 Java3Excercise.iml
-chart.java
 todo.txt
+<<<<<<< HEAD
 /.idea/
+=======
+.idea/
+>>>>>>> release/1.3.0
 out/

@@ -1,7 +1,10 @@
 package com.kobiela;
 
+import lombok.Getter;
 import static java.lang.Math.sqrt;
 
+//using lombok
+@Getter
 public class Calculate {
 
     private double dst;
@@ -13,8 +16,5 @@ public class Calculate {
         double x = Math.floor(distance * 100) / 100;
         System.out.println(x + "km");
         this.dst = x;
-    }
-    public double getDst() {
-        return dst;
     }
 }
