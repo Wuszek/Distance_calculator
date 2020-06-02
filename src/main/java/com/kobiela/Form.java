@@ -126,7 +126,7 @@ public class Form {
                 } catch (Exception exp) {
 
                     //If anything wrong, popup appears
-                    JOptionPane.showMessageDialog(null, "The entered values are incorrect or missing." + "\n" + "Fill in with the correct data or use the example data provided.", "Incorrect data", JOptionPane.INFORMATION_MESSAGE);
+                    JOptionPane.showMessageDialog(null, "The entered values are incorrect or missing." + "\n" + "Fill in with the correct data or use the example data provided.", "Incorrect or missing data", JOptionPane.INFORMATION_MESSAGE);
                     System.out.println("-------------------------------------------------");
                     System.out.println("Some value has not been entered or is invalid and calculations cannot be performed.");
                 }
@@ -229,7 +229,7 @@ public class Form {
                 } catch (Exception exp) {
 
                     //If anything wrong, popup appears
-                    JOptionPane.showMessageDialog(null, "The entered values are incorrect or missing." + "\n" + "Fill in with the correct data or use the example data provided.", "Incorrect data", JOptionPane.INFORMATION_MESSAGE);
+                    JOptionPane.showMessageDialog(null, "The entered values are incorrect or missing." + "\n" + "Fill in with the correct data or use the example data provided.", "Incorrect or missing data", JOptionPane.INFORMATION_MESSAGE);
                     System.out.println("-------------------------------------------------");
                     System.out.println("Some value has not been entered or is invalid and calculations cannot be performed.");
                 }
