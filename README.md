@@ -1,6 +1,6 @@
 # Distance calculator 
 
-![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
+![Build Status](https://travis-ci.com/Wuszek/Java3Exercise.svg?token=qwXjy3hJBFKyzysCpz3i&branch=master&status=passed)
 
 Simple GIU Java app calculating distance between one main point and three others. 
 
