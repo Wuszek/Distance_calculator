@@ -6,8 +6,14 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+
 
 public class Form {
+
 
     public static void main(String[] args) {
 
@@ -35,12 +41,13 @@ public class Form {
 
     private JPanel panel1;
     private JButton button;
+    private JTextArea textArea1;
+
     private JTextField name1;
     private JTextField coordX1;
     private JTextField coordY1;
     private JTextField name2;
     private JTextField name3;
-    private JTextArea textArea1;
     private JTextField coordX2;
     private JTextField coordX3;
     private JTextField coordY2;
@@ -48,6 +55,11 @@ public class Form {
     private JTextField name4;
     private JTextField coordX4;
     private JTextField coordY4;
+
+    //List with components and default data to fill
+    private JTextField fields_list[] = new JTextField[]{name1, name2, name3, name4, coordX1,coordX2, coordX3, coordX4, coordY1, coordY2, coordY3, coordY4};
+    private List<String> defaultList = Arrays.asList(new String[]{"Dom", "Żabka", "BP", "Biedronka", "0", "1.2", "5.5", "3.3", "0", "2.5", "-2.3", "2.7"});
+
     private JButton button2;
     private JButton fill;
     private JButton draw;
@@ -145,18 +157,10 @@ public class Form {
         button2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                name1.setText("");
-                name2.setText("");
-                name3.setText("");
-                name4.setText("");
-                coordX1.setText("");
-                coordX2.setText("");
-                coordX3.setText("");
-                coordX4.setText("");
-                coordY1.setText("");
-                coordY2.setText("");
-                coordY3.setText("");
-                coordY4.setText("");
+
+                for (JTextField field : fields_list) {
+                    field.setText("");
+                }
                 textArea1.setText("");
 
                 System.out.println("-------------------------------------------------");
@@ -177,18 +181,13 @@ public class Form {
         fill.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                name1.setText("Dom");
-                name2.setText("Żabka");
-                name3.setText("BP");
-                name4.setText("Biedronka");
-                coordX1.setText("0");
-                coordX2.setText("1.2");
-                coordX3.setText("5.5");
-                coordX4.setText("3.3");
-                coordY1.setText("0");
-                coordY2.setText("2.5");
-                coordY3.setText("-2.3");
-                coordY4.setText("2.7");
+
+                int n = 0;
+                for (JTextField field : fields_list) {
+                    field.setText(defaultList.get(n));
+                    n++;
+                    }
+
 
                 System.out.println("-------------------------------------------------");
                 System.out.println("Textboxes filled with default values.");
@@ -279,6 +278,8 @@ public class Form {
                 int input = JOptionPane.showConfirmDialog(null,"Are you sure?", "Closing...", JOptionPane.YES_NO_OPTION, JOptionPane.ERROR_MESSAGE);
                 if(input==0)
                 {
+                    System.out.println("-------------------------------------------------");
+                    System.out.println("Exited from application using menu bar.");
                     System.exit(0);
                 }
 
